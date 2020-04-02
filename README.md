@@ -4,7 +4,7 @@ This dataset can be obtained in the following ways:
 [BaiduNetDisk](https://pan.baidu.com/s/1YPI5KbAQK92gM7agvkWBpA)  
 [GoolgelDrive](https://drive.google.com/open?id=1ZVAyyZzKbRcr_cjUe79wsSrhJ2y5DUbs) 
 
-![ipand50](https://github.com/iPandaDateset/ipanda50/blob/master/ipanda50.png)
+![ipand50](https://github.com/iPandaDateset/ianda-50/blob/master/iPanda50.png)
 
 **Figure:** Sample images and statistics of the iPanda-50 dataset. Statistics are formatted as identity, #*images*  ( #*images-in-training*/#*images-in-testing* )
 
