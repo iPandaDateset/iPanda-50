@@ -10,7 +10,7 @@ The iPanda-50 dataset consists of 6,874 images of 50 giant panda individuals wit
 ```
 This dataset can be downloaded as a ZIP file from either one of the following links. Some filenames of the JPG images contain UTF-8 characters, please enable proper encoding while reading these files. 
 
-* (Single Zip File) [Baidu NetDisk Download Link 百度网盘下载链接](https://pan.baidu.com/s/11IOfCcKK-TwItU2q0XahGg) Extraction code 提取码: ``oajw`` File Size: 1.2GB 
+* (Single Zip File) [Baidu NetDisk Download Link 百度网盘下载链接](https://pan.baidu.com/s/11IOfCcKK-TwItU2q0XahGg) Extraction code 提取码: ``oajw`` File Size: 450M 
 After you download the 'iPanda-50.zip' file, extract it into any directory.  You can see three folders, i.e., "iPanda50-images", "iPanda50-split", "iPanda-50-eyes-labels". Note: In this ZIP file, text files in its ``iPanda50-split`` folder contain [Windows Code page 936 (abbreviated MS936)](https://en.wikipedia.org/wiki/Code_page_936_\(Microsoft_Windows\)) encoded characters. They are highly likely to appear as cryptic glyphs (unreadable characters) on your computer. 
 * (***Recommended***: 3 Zip files, Google Drive Download Links) Please download all three ZIP files for the images, train/test split settings and the additional eye annotations, respectively. The character encoding issue is fixed here, all file names and text files are encoded with UTF-8.     
 
