@@ -8,73 +8,102 @@ The iPanda-50 dataset is used for fine-grained panda identification and it was p
   year={2021},
   doi={10.1109/TIP.2021.3055627},}
 ```
-This dataset can be obtained as a ZIP file as follows.   
+This dataset can be downloaded as a ZIP file from either one of the following links. Some filenames of the JPG images contain UTF-8 characters, please enable proper encoding while reading these files. A bug-fixing ZIP file is also provided to address the encoding issues. 
 
-* [Google Drive Download Link](https://drive.google.com/open?id=1973u5DiS7NhlxURprJQ5fT6ItaqClnfJ)   
-* [Baidu NetDisk Download Link 百度网盘下载链接](https://pan.baidu.com/s/1V2ghuy3Il6GFad7GFbE5MA)   Extraction code 提取码: n07z 
-
+* [Baidu NetDisk Download Link 百度网盘下载链接](https://pan.baidu.com/s/1V2ghuy3Il6GFad7GFbE5MA) Extraction code 提取码: ``n07z`` File Size: 1.2GB 
+Note: In this ZIP file, text files in its ``iPanda50-split`` folder contain [Windows Code page 936 (abbreviated MS936)](https://en.wikipedia.org/wiki/Code_page_936_\(Microsoft_Windows\)) encoded characters. They are highly likely to appear as cryptic glyphs (unreadable characters) on your computer. 
+* [Google Drive Download Link](https://drive.google.com/open?id=1973u5DiS7NhlxURprJQ5fT6ItaqClnfJ) ``MD5 checksum: c71155875793276caafbee0faa4e7c0e`` File Size: 1.2GB 
+Note: In this ZIP file, text files in its ``iPanda50-split`` folder contain [Windows Code page 936 (abbreviated MS936)](https://en.wikipedia.org/wiki/Code_page_936_\(Microsoft_Windows\)) encoded characters. They are highly likely to appear as cryptic glyphs (unreadable characters) on your computer. 
+* [Bug fix of converting MS936-encoding to UTF-8, Google Drive Link]() ``MD5 checksum: ***`` File Size: MB. This ZIP file only contains the ``iPanda50-split`` folder. Please unzip it and overwrite previous ``iPanda50-split`` version. All text files here are encoded with UTF-8. 
 
 ![ipand50](https://github.com/iPandaDateset/iPanda-50/raw/master/iPanda50.png)
 
 **Figure:** Sample images and statistics of the iPanda-50 dataset. Statistics are formatted as identity, #*images*  ( #*images-in-training*/#*images-in-testing* )
 
-The iPanda-50 dataset consists of 6,874 images of 50 giant panda individuals with 49 ~ 292 images per panda identity.   
-
-After you download the 'iPanda-50.zip' file, extract it into any directory.  You can see three folders, such as "iPanda50-images", "iPanda50-split", "iPanda-50-eyes-labels".
+The iPanda-50 dataset consists of 6,874 images of 50 giant panda individuals with 49 ~ 292 images per panda.   
+After you download the 'iPanda-50.zip' file, extract it into any directory.  You can see three folders, i.e., "iPanda50-images", "iPanda50-split", "iPanda-50-eyes-labels".
 
 ## iPanda50-images
 
-All images  are in the "iPanda50-images" folder, and the directory structure of this folder is as follows:  
+All images are in the "iPanda50-images" folder, with the directory structure as follows.  
 
 ```
-
-----|00_aibang  
-    ----|00_v001_f000455.jpg  
-    ----|00_v002_f000945.jpg  
-    ----|......    
-----|01_aoliao 
-    ----|01_v002_f001680.jpg  
-    ----|......  
-    ----|...... 
-----|... ...  
-----|... ... 
-----|... ... 
-----|49_yuanrun
-    ----|......  
- 
+.
+├── 00_aibang
+├── 01_aoliao
+├── 02_baolan
+├── 03_bingdian
+├── 04_chengdui
+├── 05_chengjiu
+├── 06_chengshi
+├── 07_chengshuang
+├── 08_fulai
+├── 09_fushun
+├── 10_hexing
+├── 11_jiaoao
+├── 12_jingjing
+├── 13_jingliang
+├── 14_maodou
+├── 15_maosun
+├── 16_maotao
+├── 17_meibang
+├── 18_miaomiao
+├── 19_nannan
+├── 20_nike
+├── 21_nina
+├── 22_nini
+├── 23_qiubang
+├── 24_qixi
+├── 25_qiyi
+├── 26_qiyuan
+├── 27_rourou
+├── 28_sa
+├── 29_shuangxiong
+├── 30_shuqing
+├── 31_shurong
+├── 32_susu
+├── 33_wuyi
+├── 34_xiaoqiao
+├── 35_xilan
+├── 36_xingda
+├── 37_xinger
+├── 38_xingfan
+├── 39_xinghui
+├── 40_xingrong
+├── 41_xingxiao
+├── 42_xingyi
+├── 43_yaxing
+├── 44_yayi
+├── 45_yayun
+├── 46_yazhu
+├── 47_yingying
+├── 48_yongbang
+└── 49_yuanrun 
 ```
 
-There are 50 subfolders in the iPanda50.zip folder. Each subfolder represents a certain category. The file name of each subfolder shows the label and name of the panda. For example, "00_aibang" means that the panda name is "aibang" and the label is 0, thus the corresponding panda images of this category are stored in this subfolder.   
-
+These 50 subfolders (00_aibang until 49_yuanrun) represent the numeric labels and names of these 50 giant panda individuals. For example, Panda #0 has the name "aibang" and Panda #49 has the name "yuanrun".   
 
 
 ## iPanda-50 split
 
-Initially, we randomly divide the iPanda-50 dataset into the training set and testing set via a 2:1 ratio.  Thus the training set contains 4,106 images and test set contains 2,768 images.  This division result was recorded in the iPanda50-split/split0/split0_train.txt and  iPanda50-split/split0/split0/split0_test.txt, respectively. 
-Similarly, we totally divide the dataset into five independent subsets recorded in the "split" folder.
+We randomly divide the iPanda-50 dataset into the training split and the testing split at approximately 3:2 ratio, leading to a training set of 4,106 images and a test set of 2,768 images. This division operation was repeated for a total of 5 times (i.e., 5 Monte Carlo trials), and the results are saved in this ``iPanda50-split`` folder. 
 
-The directory structure of iPanda50-split is as follows: 
+The directory structure of ``iPanda50-split`` is as follows. 
 
-----|split0  
-    ----|split0_train.txt  
-    ----|split0_test.txt   
-----|split1    
-    ----|split1_train.txt  
-    ----|split1_test.txt  
-
-----|split2  
-    ----|split2_train.txt  
-    ----|split2_test.txt  
-
-----|split3  
-    ----|split3_train.txt  
-    ----|split3_test.txt  
-
-----|split4  
-    ----|split4_train.txt  
-    ----|split4_test.txt  
+```
+.
+├── split0_test.txt
+├── split0_train.txt
+├── split1_test.txt
+├── split1_train.txt
+├── split2_test.txt
+├── split2_train.txt
+├── split3_test.txt
+├── split3_train.txt
+├── split4_test.txt
+└── split4_train.txt
+```
 
 ## iPanda-50-eyes-labels
 
-Since eyes may promote the panda identification, we have provided additional eye annotations in "iPanda-50-eyes-labels" folder. Store the panda eye position of each image in a "json" file. 
-
+The area around eyes may contribute significantly to the identification of giant pandas, therefore we have provided additional eye annotations (i.e., location) in JSON format in the ``iPanda-50-eyes-labels`` folder. Only images with at least one eye visible are annotated. A total of 5,696 images are annotated in this folder. These JSON files are organized similar to the ``iPanda50-images`` folder, with each JSON file corresponding to an image with the same name.  
