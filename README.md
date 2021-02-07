@@ -1,5 +1,5 @@
 # iPanda-50
-The iPanda-50 dataset is used for fine-grained panda identification and it was proposed in [Le Wang, Rizhi Ding, Yuanhao Zhai, Qilin Zhang, Wei Tang, Nanning Zheng, and Gang Hua, “Giant Panda Identification”, IEEE Transactions on Image Processing, 2021.](https://doi.org/10.1109/tip.2021.3055627) In case you do not have convenient access to IEEE Xplore, the preprint PDF can be accessed [here from Github.io](https://qilin-zhang.github.io/_pages/pdfs/Giant_Panda_Identification_TIP.pdf) or [here from xjtu.edu.cn](http://gr.xjtu.edu.cn/documents/1809645/0/manuscript.pdf/47589606-3110-53de-eb0e-c7b4965940ad?t=1611713263900). If you find this dataset helpful in your research, please consider citing this publication. 
+The iPanda-50 dataset consists of 6,874 images of 50 giant panda individuals with 49 ~ 292 images per panda. The iPanda-50 dataset is used for fine-grained panda identification and it was proposed in [Le Wang, Rizhi Ding, Yuanhao Zhai, Qilin Zhang, Wei Tang, Nanning Zheng, and Gang Hua, “Giant Panda Identification”, IEEE Transactions on Image Processing, 2021.](https://doi.org/10.1109/tip.2021.3055627) In case you do not have convenient access to IEEE Xplore, the preprint PDF can be accessed [here from Github.io](https://qilin-zhang.github.io/_pages/pdfs/Giant_Panda_Identification_TIP.pdf) or [here from xjtu.edu.cn](http://gr.xjtu.edu.cn/documents/1809645/0/manuscript.pdf/47589606-3110-53de-eb0e-c7b4965940ad?t=1611713263900). If you find this dataset helpful in your research, please consider citing this publication. 
 ```
 @ARTICLE{Wang21Giant,
   author={Le Wang and Rizhi Ding and Yuanhao Zhai and Qilin Zhang and Wei Tang and Nanning Zheng and Gang Hua},
@@ -8,20 +8,27 @@ The iPanda-50 dataset is used for fine-grained panda identification and it was p
   year={2021},
   doi={10.1109/TIP.2021.3055627},}
 ```
-This dataset can be downloaded as a ZIP file from either one of the following links. Some filenames of the JPG images contain UTF-8 characters, please enable proper encoding while reading these files. A bug-fixing ZIP file is also provided to address the encoding issues. 
+This dataset can be downloaded as a ZIP file from either one of the following links. Some filenames of the JPG images contain UTF-8 characters, please enable proper encoding while reading these files. 
 
-* [Baidu NetDisk Download Link 百度网盘下载链接](https://pan.baidu.com/s/1V2ghuy3Il6GFad7GFbE5MA) Extraction code 提取码: ``n07z`` File Size: 1.2GB 
-Note: In this ZIP file, text files in its ``iPanda50-split`` folder contain [Windows Code page 936 (abbreviated MS936)](https://en.wikipedia.org/wiki/Code_page_936_\(Microsoft_Windows\)) encoded characters. They are highly likely to appear as cryptic glyphs (unreadable characters) on your computer. 
-* [Google Drive Download Link](https://drive.google.com/open?id=1973u5DiS7NhlxURprJQ5fT6ItaqClnfJ) ``MD5 checksum: c71155875793276caafbee0faa4e7c0e`` File Size: 1.2GB 
-Note: In this ZIP file, text files in its ``iPanda50-split`` folder contain [Windows Code page 936 (abbreviated MS936)](https://en.wikipedia.org/wiki/Code_page_936_\(Microsoft_Windows\)) encoded characters. They are highly likely to appear as cryptic glyphs (unreadable characters) on your computer. 
-* [Bug fix of converting MS936-encoding to UTF-8, Google Drive Link]() ``MD5 checksum: ***`` File Size: MB. This ZIP file only contains the ``iPanda50-split`` folder. Please unzip it and overwrite previous ``iPanda50-split`` version. All text files here are encoded with UTF-8. 
+* (Single Zip File) [Baidu NetDisk Download Link 百度网盘下载链接](https://pan.baidu.com/s/1V2ghuy3Il6GFad7GFbE5MA) Extraction code 提取码: ``n07z`` File Size: 1.2GB 
+After you download the 'iPanda-50.zip' file, extract it into any directory.  You can see three folders, i.e., "iPanda50-images", "iPanda50-split", "iPanda-50-eyes-labels". Note: In this ZIP file, text files in its ``iPanda50-split`` folder contain [Windows Code page 936 (abbreviated MS936)](https://en.wikipedia.org/wiki/Code_page_936_\(Microsoft_Windows\)) encoded characters. They are highly likely to appear as cryptic glyphs (unreadable characters) on your computer. 
+* (***Recommended***: 3 Zip files, Google Drive Download Links) Please download all three ZIP files for the images, train/test split settings and the additional eye annotations, respectively. The character encoding issue is fixed here, all file names and text files are encoded with UTF-8.     
+
+| Files.                   | File Size      | MD5 checksum   |  
+| :---                     |     :---       |          :---  | 
+| [iPanda50-images.zip](https://drive.google.com/file/d/1nkh-g6a8JvWy-XsMaZqrN2AXoPlaXuFg/view?usp=sharing)      | 883M     | 46727b709139ad3306491f9c11eaefba     |
+| [iPanda50-split.zip](https://drive.google.com/file/d/1gVREtFWkNec4xwqOyKkpuIQIyWU_Y_Ob/view?usp=sharing)       | 137K       | b133b5ef63de4b02a7193c377efc4635       |
+| [iPanda50-eyes-labels.zip](https://drive.google.com/file/d/1NtmFnKr87AZZkIKfOYxoIdXzzEjDXapS/view?usp=sharing) | 317M | 09215b4829e2a465cc7079aa3bda3572 |
+<!---
+[Old Google Drive Zip file link](https://drive.google.com/open?id=1973u5DiS7NhlxURprJQ5fT6ItaqClnfJ) ``MD5 checksum: c71155875793276caafbee0faa4e7c0e`` File Size: 1.2GB With encoding issues
+-->
+
 
 ![ipand50](https://github.com/iPandaDateset/iPanda-50/raw/master/iPanda50.png)
 
 **Figure:** Sample images and statistics of the iPanda-50 dataset. Statistics are formatted as identity, #*images*  ( #*images-in-training*/#*images-in-testing* )
 
-The iPanda-50 dataset consists of 6,874 images of 50 giant panda individuals with 49 ~ 292 images per panda.   
-After you download the 'iPanda-50.zip' file, extract it into any directory.  You can see three folders, i.e., "iPanda50-images", "iPanda50-split", "iPanda-50-eyes-labels".
+
 
 ## iPanda50-images
 
@@ -84,7 +91,7 @@ All images are in the "iPanda50-images" folder, with the directory structure as 
 These 50 subfolders (00_aibang until 49_yuanrun) represent the numeric labels and names of these 50 giant panda individuals. For example, Panda #0 has the name "aibang" and Panda #49 has the name "yuanrun".   
 
 
-## iPanda-50 split
+## iPanda50-split
 
 We randomly divide the iPanda-50 dataset into the training split and the testing split at approximately 3:2 ratio, leading to a training set of 4,106 images and a test set of 2,768 images. This division operation was repeated for a total of 5 times (i.e., 5 Monte Carlo trials), and the results are saved in this ``iPanda50-split`` folder. 
 
@@ -104,6 +111,6 @@ The directory structure of ``iPanda50-split`` is as follows.
 └── split4_train.txt
 ```
 
-## iPanda-50-eyes-labels
+## iPanda50-eyes-labels
 
-The area around eyes may contribute significantly to the identification of giant pandas, therefore we have provided additional eye annotations (i.e., location) in JSON format in the ``iPanda-50-eyes-labels`` folder. Only images with at least one eye visible are annotated. A total of 5,696 images are annotated in this folder. These JSON files are organized similar to the ``iPanda50-images`` folder, with each JSON file corresponding to an image with the same name.  
+The area around eyes may contribute significantly to the identification of giant pandas, therefore we have provided additional eye annotations (i.e., location) in JSON format in the ``iPanda50-eyes-labels`` folder. Only images with at least one eye visible are annotated. A total of 5,696 images are annotated in this folder. These JSON files are organized similar to the ``iPanda50-images`` folder, with each JSON file corresponding to an image with the same name.  
