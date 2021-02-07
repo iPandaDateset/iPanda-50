@@ -1,7 +1,7 @@
 # iPanda-50
 The iPanda-50 dataset is used for fine-grained panda identification.
 This dataset can be obtained in the following ways:  
-[Baidu NetDisk 百度网盘](https://pan.baidu.com/s/1V2ghuy3Il6GFad7GFbE5MA)   **Extraction code**: n07z
+[Baidu NetDisk 百度网盘](https://pan.baidu.com/s/1V2ghuy3Il6GFad7GFbE5MA)   **Extraction code 提取码**: n07z
 
 [Google Drive](https://drive.google.com/open?id=1973u5DiS7NhlxURprJQ5fT6ItaqClnfJ) 
 
@@ -49,7 +49,7 @@ The directory structure of iPanda50-split is as follows:
 ----|split0  
     ----|split0_train.txt  
     ----|split0_test.txt   
-----|split1 
+----|split1    
     ----|split1_train.txt  
     ----|split1_test.txt  
 
