@@ -10,7 +10,7 @@ The iPanda-50 dataset consists of 6,874 images of 50 giant panda individuals wit
 ```
 This dataset can be downloaded as ZIP files from the following URLs. Some filenames of the JPG images contain UTF-8 characters, please enable proper encoding while reading these files. 
 
-* (Single Zip File, but requiring client software) [Baidu NetDisk/Wangpan 百度网盘](https://pan.baidu.com/s/11IOfCcKK-TwItU2q0XahGg) Extraction code 提取码: ``oajw``  File Size: 450M  
+* (Single Zip File, but requiring client software) [Baidu NetDisk/Wangpan 百度网盘](https://pan.baidu.com/s/1je8JZUhIRyK-aguilEKIpA) Extraction code 提取码: ``ohln``  File Size: 885.8M  
 After you download the 'iPanda-50.zip' file, extract it into any directory.  You can see three folders, i.e., "iPanda50-images", "iPanda50-split", "iPanda-50-eyes-labels".   
 *Note: Baidu NetDisk/Wangpan service may require a [client software (Baidu Netdisk)](https://pan.baidu.com/download) installed on your machine before allowing you to download. If you prefer not to install any software, please try the alternative download links as follows.* 
 
