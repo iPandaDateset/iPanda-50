@@ -8,19 +8,25 @@ The iPanda-50 dataset consists of 6,874 images of 50 giant panda individuals wit
   year={2021},
   doi={10.1109/TIP.2021.3055627},}
 ```
-This dataset can be downloaded as a ZIP file from either one of the following links. Some filenames of the JPG images contain UTF-8 characters, please enable proper encoding while reading these files. 
+This dataset can be downloaded as ZIP files from the following URLs. Some filenames of the JPG images contain UTF-8 characters, please enable proper encoding while reading these files. 
 
-* (Single Zip File) [Baidu NetDisk Download Link 百度网盘下载链接](https://pan.baidu.com/s/11IOfCcKK-TwItU2q0XahGg) Extraction code 提取码: ``oajw`` File Size: 450M 
-After you download the 'iPanda-50.zip' file, extract it into any directory.  You can see three folders, i.e., "iPanda50-images", "iPanda50-split", "iPanda-50-eyes-labels". Note: In this ZIP file, text files in its ``iPanda50-split`` folder contain [Windows Code page 936 (abbreviated MS936)](https://en.wikipedia.org/wiki/Code_page_936_\(Microsoft_Windows\)) encoded characters. They are highly likely to appear as cryptic glyphs (unreadable characters) on your computer. 
-* (***Recommended***: 3 Zip files, Google Drive Download Links) Please download all three ZIP files for the images, train/test split settings and the additional eye annotations, respectively. The character encoding issue is fixed here, all file names and text files are encoded with UTF-8.     
+* (Single Zip File, but requiring client software) [Baidu NetDisk/Wangpan 百度网盘](https://pan.baidu.com/s/11IOfCcKK-TwItU2q0XahGg) Extraction code 提取码: ``oajw``  File Size: 450M  
+After you download the 'iPanda-50.zip' file, extract it into any directory.  You can see three folders, i.e., "iPanda50-images", "iPanda50-split", "iPanda-50-eyes-labels".   
+*Note: Baidu NetDisk/Wangpan service may require a [client software (Baidu Netdisk)](https://pan.baidu.com/download) installed on your machine before allowing you to download. If you prefer not to install any software, please try the alternative download links as follows.* 
 
-| Files.                   | File Size      | MD5 checksum   |  
-| :---                     |     :---       |          :---  | 
-| [iPanda50-images.zip](https://drive.google.com/file/d/1nkh-g6a8JvWy-XsMaZqrN2AXoPlaXuFg/view?usp=sharing)      | 883M     | 46727b709139ad3306491f9c11eaefba     |
-| [iPanda50-split.zip](https://drive.google.com/file/d/1gVREtFWkNec4xwqOyKkpuIQIyWU_Y_Ob/view?usp=sharing)       | 137K       | b133b5ef63de4b02a7193c377efc4635       |
-| [iPanda50-eyes-labels.zip](https://drive.google.com/file/d/1jdACN98uOxedZDT-6X3rpbooLAAUEbNY/view?usp=sharing) | 2.5M | 5bf41bf5cf2f401664ced7ccf55df870 |
+* (***Recommended***: 3 Zip files, direct download links) Please download all three ZIP files for the images, train/test split settings and the additional eye annotations, respectively.     
+
+| Files                    | File Size      | MD5 checksum   |  Download Servers    |
+| :---                     |     :---       |          :---  |  :---  |
+| iPanda50-images.zip      | 883M     | ``46727b709139ad3306491f9c11eaefba``     | [[Google Drive]](https://drive.google.com/file/d/1nkh-g6a8JvWy-XsMaZqrN2AXoPlaXuFg/view?usp=sharing), [[Dropbox]](https://www.dropbox.com/s/esrh7udbz46qu1a/iPanda50-images.zip?dl=0), [[MS OneDrive]](https://1drv.ms/u/s!AtxtJtIHVHlkcLhAJm_tbI5kZe8?e=svx8Lf) |
+| iPanda50-split.zip       | 137K       | ``b133b5ef63de4b02a7193c377efc4635``   | [[Google Drive]](https://drive.google.com/file/d/1gVREtFWkNec4xwqOyKkpuIQIyWU_Y_Ob/view?usp=sharing), [[Dropbox]](https://www.dropbox.com/s/65d0a5if6b5uc27/iPanda50-split.zip?dl=0), [[MS OneDrive]](https://1drv.ms/u/s!AtxtJtIHVHlkbdv3gFWWtaTkLek?e=s8pFf2) |
+| iPanda50-eyes-labels.zip | 2.5M | ``5bf41bf5cf2f401664ced7ccf55df870`` | [[Google Drive]](https://drive.google.com/file/d/1jdACN98uOxedZDT-6X3rpbooLAAUEbNY/view?usp=sharing), [[Dropbox]](https://www.dropbox.com/s/xt6koer7tgg89ls/iPanda50-eyes-labels.zip), [[MS OneDrive]](https://1drv.ms/u/s!AtxtJtIHVHlkbqF4SQ_DChX0wOs?e=kjniJG) |
 <!---
-[Old Google Drive Zip file link](https://drive.google.com/open?id=1973u5DiS7NhlxURprJQ5fT6ItaqClnfJ) ``MD5 checksum: c71155875793276caafbee0faa4e7c0e`` File Size: 1.2GB With encoding issues
+| Files                    | File Size      | MD5 checksum   |  
+| :---                     |     :---       |          :---  | 
+| [iPanda50-images.zip](https://drive.google.com/file/d/1nkh-g6a8JvWy-XsMaZqrN2AXoPlaXuFg/view?usp=sharing)      | 883M     | ``46727b709139ad3306491f9c11eaefba``     |
+| [iPanda50-split.zip](https://drive.google.com/file/d/1gVREtFWkNec4xwqOyKkpuIQIyWU_Y_Ob/view?usp=sharing)       | 137K       | ``b133b5ef63de4b02a7193c377efc4635``       |
+| [iPanda50-eyes-labels.zip](https://drive.google.com/file/d/1jdACN98uOxedZDT-6X3rpbooLAAUEbNY/view?usp=sharing) | 2.5M | ``5bf41bf5cf2f401664ced7ccf55df870`` |
 -->
 
 
