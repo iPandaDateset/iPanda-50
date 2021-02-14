@@ -1,12 +1,14 @@
 # iPanda-50
 The iPanda-50 dataset consists of 6,874 images of 50 giant panda individuals with 49 ~ 292 images per panda. The iPanda-50 dataset is used for fine-grained panda identification and it was proposed in [Le Wang, Rizhi Ding, Yuanhao Zhai, Qilin Zhang, Wei Tang, Nanning Zheng, and Gang Hua, “Giant Panda Identification”, IEEE Transactions on Image Processing, 2021.](https://doi.org/10.1109/tip.2021.3055627) In case you do not have convenient access to IEEE Xplore, the preprint PDF can be accessed [here from Github.io](https://qilin-zhang.github.io/_pages/pdfs/Giant_Panda_Identification_TIP.pdf) or [here from xjtu.edu.cn](http://gr.xjtu.edu.cn/documents/1809645/0/manuscript.pdf/47589606-3110-53de-eb0e-c7b4965940ad?t=1611713263900). If you find this dataset helpful in your research, please consider citing this publication. 
 ```
-@ARTICLE{Wang21Giant,
+  @ARTICLE{Wang21Giant,
   author={Le Wang and Rizhi Ding and Yuanhao Zhai and Qilin Zhang and Wei Tang and Nanning Zheng and Gang Hua},
   journal={IEEE Transactions on Image Processing}, 
   title={Giant Panda Identification}, 
   year={2021},
-  doi={10.1109/TIP.2021.3055627},}
+  volume={30},
+  pages={2837-2849},
+  doi={10.1109/TIP.2021.3055627}}
 ```
 This dataset can be downloaded as ZIP files from the following URLs. Some filenames of the JPG images contain UTF-8 characters, please enable proper encoding while reading these files. 
 
